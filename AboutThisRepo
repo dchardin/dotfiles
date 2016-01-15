@@ -1,0 +1,14 @@
+#I created this repo to hold the dotfiles that contain my preferred setting
+#for some of the tools that I use on my 'nix computers.
+#please not that there are both  bashrc and bash_profile files.
+
+#The bashrc file is for the bash shell on linux machines, and the
+#bash_profile file is for the bash shell on my osx based macbook.
+
+#You will need to rename them to add the dot back. For example, if you 
+#pull the vimrc file into your own home directory, you will need to change
+#the filename from vimrc to .vimrc (mv vimrc .vimrc)
+
+#I followed this tutorial when I set this whole thing up:
+#	https://github.com/dchardin/dotfiles	
+#I will save a copy of the page in html format in this repo (just in case)
