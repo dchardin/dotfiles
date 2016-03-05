@@ -2,6 +2,8 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+set laststatus=2
+set statusline+=%F\ %l\:%c
 set colorcolumn=80
 
 " set the runtime path to include Vundle and initialize
@@ -23,6 +25,8 @@ Plugin 'nerdTree'
 Plugin 'surround.vim'
 "Plugin 'ultisnips'
 Plugin 'vim-easymotion'
+Plugin 'vim-scripts/DrawIt'
+
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
