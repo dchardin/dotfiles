@@ -13,19 +13,40 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'GitGutter'
-Plugin 'SQLComplete.vim'
 Plugin 'Unite.vim'
 "Plugin 'command-t'
 Plugin 'commentary.vim'
 Plugin 'delimitMate'
-Plugin 'nerdTree'
+"Plugin 'nerdTree'
 "Plugin 'sparkup'
 Plugin 'surround.vim'
 "Plugin 'ultisnips'
 Plugin 'vim-easymotion'
 Plugin 'vim-scripts/DrawIt'
+Plugin 'scrooloose/syntastic'
+Plugin 'bling/vim-airline'
+Plugin 'edsono/vim-matchit'
+Plugin 'elzr/vim-json'
+Plugin 'honza/vim-snippets'
+Plugin 'justinmk/vim-sneak'
+Plugin 'kien/ctrlp.vim'
+Plugin 'ludovicchabant/vim-lawrencium'
+Plugin 'majutsushi/tagbar'
+Plugin 'mhinz/vim-signify'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'sjl/gundo.vim'
+Plugin 'tpope/vim-sleuth'
+Plugin 'tpope/vim-surround'
+Plugin 'tryu/open-browser.vim'
+Plugin 'vim-scripts/a.vim'
+Plugin 'tomasr/molokai'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'SQLComplete.vim'
+Plugin 'dbext.vim'
 
 
 " The following are examples of different formats supported.
@@ -65,7 +86,7 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 "****************END*VUNDLE*CONFIG********************
 
 " show line numbers
-set number
+" set number
 
 " set tabs to have 4 spaces
 " set ts=4
